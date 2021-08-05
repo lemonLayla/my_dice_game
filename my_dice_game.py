@@ -2,12 +2,21 @@ from random import randint
 random_num = randint(1,6)
 #print(random_num)
 
+print('Hello and welcome to layla','s dice game this game is fun an simple as 1-2-3')
+print('all you have to do is guess the number the six side dice is going to land on. ')
+print('     ')
+print('but you only git to guesss')
+print('     ')
+your_guess=0
 
-
-#for i in range(1):
-your_guess= int(input('guess here '))
-print(your_guess)
-
+for i in range(2):
+    if your_guess != random_num:
+        your_guess= int(input('1-6 now take your pick and guess here : '))
+        print('     ')
+        if your_guess ==random_num:
+            print('correct! you win  :)')
+        else:
+            print('maybe next time loser ;)')
 
 if random_num == 1:
 
@@ -75,7 +84,3 @@ if random_num == 6:
         print('   | o o o | /'  )
         print('   |_______|/ '  )
 
-if your_guess ==random_num:
- print('correct! you win  :)')
-else:
-    print('maybe next time loser ;)')
