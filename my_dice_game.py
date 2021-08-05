@@ -3,9 +3,9 @@ random_num = randint(1,6)
 #print(random_num)
 
 print('Hello and welcome to layla','s dice game this game is fun an simple as 1-2-3')
-print('all you have to do is guess the number the six side dice is going to land on. ')
+print('all you have to do is guess the number the six sided dice is going to land on. ')
 print('     ')
-print('but you only git to guesss')
+print('but you only git 2 guesss')
 print('     ')
 your_guess=0
 
